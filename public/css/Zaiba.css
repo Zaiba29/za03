@@ -1,0 +1,119 @@
+
+
+.section-header {
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    <img src="zaibaali.jpg" alt="Avatar" style="width:200px">
+  }
+ 
+body {
+    background-image: url("background.jpg");
+}
+div {
+    text-align: initial
+  }
+
+.current-section
+{
+    font-style: italic;
+}
+#section-thank {
+    text-align: center;
+    font-style: italic;
+    
+}
+#table{
+    font-weight: bold;
+
+}
+  h1{
+    text-align: center;
+    color: #fff;
+  }
+  .clearfix{
+    clear: both;
+  }
+  #box{
+    width: 350px;
+    overflow: auto;
+    margin: 40px auto;
+    background: #666;
+    padding-bottom: 40px;
+    border-radius: 10px;
+  }
+  #message{
+    background: #333;
+    color: #fff;
+  }
+  #gameBoard li{
+    float: left;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    background: #333;
+    color: #ccc;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+  }
+  #gameBoard li:hover, #reset:hover{
+    cursor: pointer;
+    background: #000;
+  }
+  #reset{
+    border: 0;
+    background: #444;
+    color: #fff;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .o{
+    color: green !important;
+  }
+  .x{
+    color: red !important;
+  }
+  footer{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#links {
+  text-align: center;
+  font-size: 1.5em
+
+}
+
