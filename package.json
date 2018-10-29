@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "a03",
     "version": "0.0.1",
@@ -17,3 +18,24 @@
     },
     "license": "Apache-2.0"
 }
+=======
+{
+    "name": "a03",
+    "version": "0.0.1",
+    "description": "resume app",
+    "main": "app.js",
+    "dependencies": {
+        "express": "latest",
+        "morgan": "latest",
+        "body-parser": "latest",
+        "ejs": "latest"
+    },
+    "author": "Denise Case",
+    "homepage": "https://bitbucket.org/professorcase/a03",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/professorcase/a03"
+    },
+    "license": "Apache-2.0"
+}
+>>>>>>> de3f81a346b10da0960885c118d698b158ca9427
